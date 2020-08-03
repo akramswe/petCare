@@ -1,0 +1,84 @@
+.slicknav_menu{
+    display: none;
+}
+
+
+@media screen and (max-width:992px)
+{
+    #menu{
+        display: none;
+    }
+    .slicknav_menu{
+        display: inline-block;
+        position: fixed;
+        background: transparent;
+        z-index: 1000;
+        right: 0;
+        margin-top: 110px;
+    }
+    header{
+        margin-top: 110px;
+        background-color: darkcyan;
+    }
+    
+    .slider{
+        margin-top: -110px;
+    }
+    .slicknav_btn{
+        margin: 35px 30px 0px 0px;
+        background-color: darkgrey;
+    }
+    .slicknav_nav{
+        background: darkcyan;
+        width: 200px;
+        
+    }
+    .slicknav_nav li{
+        margin: 0;
+        padding: 0;
+        height: 3em;
+        line-height: 3em;
+        width: 200px;
+        border: 1px  #2e4255;
+        border-top: 1px  #3d5267;
+        text-align: center;
+    }
+    .slicknav_nav li a{
+        margin: 0;
+        padding: 0;
+         cursor: pointer;
+        font-weight: bold;
+        transition: all 0.5s ease-in;
+    }
+    .slicknav_nav li:hover{
+        color: aliceblue;
+        text-decoration: none;
+        background: none;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

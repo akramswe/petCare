@@ -1,0 +1,198 @@
+html,body{
+    background-color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    overflow-x: hidden !important;
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    text-decoration: none;
+}
+
+.wrapper{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.1) ),url(57_YVR_Puppies_2018.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+    
+}
+.nav{
+   
+    display: flex;
+    
+    padding: 40px 120px;
+    
+    
+}
+.logo{
+    width: 120px;
+    color: antiquewhite;
+}
+.links{
+    flex: 1;
+    
+}
+.links ul{
+    margin-left: 50px;
+    display: inline;
+}
+.links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 25px;
+}
+.links ul a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 13px;
+}
+.links ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: darkblue;
+    display: block;
+    margin: auto;
+    transition: .5s;
+}
+.links ul li:hover::after{
+    width: 100%
+}
+.btn{
+    padding: 10px 20px;
+    border: 0;
+    background: FireBrick;
+    font-weight: bold;
+    cursor: pointer;
+}
+.links .btn{
+    float: right;
+}
+.title{
+    margin: 80px 130px;
+    color: whitesmoke;
+}
+.title h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.title h1 span{
+    color:YellowGreen;
+}
+
+.bar{
+    height: 100%;
+    background: black;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.search-icons{
+    height: 60%;
+    width: 80px;
+}
+.search-icons .fa{
+    margin: 45px 23px;
+    display: block;
+    color: wheat;
+    font-size: 30px;
+    cursor: pointer;
+}
+.social-icons{
+    height: 35%;
+    width: 80px;
+    background: brown;
+    text-align: center;
+    padding-top: 25%;
+    bottom: 0;
+    position: absolute;
+    
+}
+.social-icons .fa{
+    margin: 15px 23px;
+    display: block;
+    padding: 8px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.nav .fa{
+    display: none;
+}
+
+@media(max-width:700px){
+    .bar{
+        display: none;
+    }
+    .title{
+        margin: 80px 40px;
+        
+    }
+    .title h1{
+        font-size: 50px;
+    }
+    .nav{
+        padding: 10px 30px;
+    }
+    .fa-bars{
+        position: absolute;
+        right: 20px;
+        top: 10px;
+        
+    }
+    .nav .fa{
+        display: block;
+        color: #fff;
+        margin: 10px 25px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .links{
+        height: 100vh;
+        width: 200px;
+        background:RosyBrown;
+        top: 0;
+        right: -200px;
+        position: absolute;
+        text-align: left;
+        z-index: 2;
+        transition: .5s;
+    }
+    .links ul a{
+        display: block;
+    }
+    .links .btn{
+        float: none;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

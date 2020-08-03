@@ -1,0 +1,62 @@
+
+/*login-registration section*/
+.bg{
+
+  background-repeat: no-repeat;
+   width:100%;
+  height: 150vh;
+  background-size: cover;
+}
+.form-container{
+  background-color: rgb(255, 228, 196,0.6);
+  border: 0px solid #fff;
+  padding: 40px 50px;
+  margin-top: 20vh;
+  box-shadow: -1px 1px 18px 8px rgba(0,0,0,0.75);
+  font-weight: bold;
+}
+
+/*our service section*/
+
+.ser{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(image/bg2.jpg);
+  background-size: cover;
+  background-position: center;
+  color:#fff!important;
+  background-repeat: no-repeat;
+  width:100%;
+ height: 250vh;
+}
+.service{
+  margin: 90px auto;
+  text-align: center;
+}
+
+.service h1{
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+.service h1::after{
+  content: '';
+  background: white;
+  display: block;
+  width: 150px;
+  margin:10px auto;
+  height: 3px;
+}
+
+.icon{
+  font-size: 40px;
+  margin: 5px auto;
+  padding: 5px;
+  height: 60px;
+  width: 60px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.tx:hover{
+  box-shadow: 5px 7px 9px -3px rgba(255, 255, 255, 0.5);
+  cursor:pointer;
+}

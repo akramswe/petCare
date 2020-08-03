@@ -1,0 +1,472 @@
+*,html,body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 5000px;
+}
+header{
+    
+    height: 112px;
+    line-height: 112px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.secondary{
+    background-color: darkslategray;
+    box-shadow: 0px 0px 17px 0px;
+    transition: all 0.5s ease-in;
+}
+
+
+
+
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+}
+header ul {
+    float: right;
+}
+header  ul li a{
+    padding-right: 30px;
+    font-weight: bold;
+    color: aliceblue;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+header  ul li a:hover{
+    text-decoration: inherit;
+    color: black;
+}
+
+
+
+
+
+
+
+
+.img1{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8) ), url(..//Images/57_YVR_Puppies_2018.jpg);
+    background-size: 100% 100%
+}
+.slider,.slider ul,.slider ul li{
+    height: 600px;
+    width: 100%;
+    color: snow;
+    text-align: center;
+}
+.img2{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8) ), url(..//Images/walking-the-dog-day.jpg);
+    background-size: 100% 100%;
+}
+.slider h2{
+    font-weight: bold;
+    margin-top: 250px;
+}
+.slider span{
+    color: brown;
+}
+.slider a{
+    padding: 10px 40px;
+    background-color: Navy;
+    color: aliceblue;
+    margin-right: 10px;
+}
+
+.slider i{
+    font-size: 25px;
+    margin-right: 10px;
+}
+/* story */
+.about-section{
+    position: relative;
+    padding: 100px 0px;
+    text-align: center;
+    margin-top: -50px;
+    overflow: hidden;
+}
+
+.img{
+     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(..//Images/Russian-Blue_01.jpg);
+  background-size: cover;
+  background-position: center;
+  color:#fff!important;
+  background-repeat: no-repeat;
+  width:100%;
+ height: 170vh;
+}
+.about1{
+  font-family:"Arial Black", Gadget, sans-serif;
+  background-color: white;
+  background: rgba(255, 228, 196, 0.2);
+  width:60%;
+  float: right;
+
+  padding: 70px;
+}
+
+
+.about1 p{
+  margin: 5%;
+  font-weight: bold;
+  color: black;
+
+}
+
+
+/*service*/
+
+
+.intro-area{
+    position: relative;
+    padding: 100px 0px;
+    text-align: center;
+    margin-top: -50px;
+}
+
+
+
+.sub-heading{
+    position: relative;
+    margin-bottom: 75px;
+}
+.sub-heading:before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -3%;
+    width: 6%;
+    height: 1px;
+    background-color: darkseagreen;
+    z-index: 1;
+    -webkit-transition:0.3s ease;
+    -moz-transition:0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition:0.3s ease;
+    transition: 0.3s ease;
+}
+.sub-heading:hover:before{
+    width: 24%;
+    margin-left: -12px;
+}
+.sub-heading:hover:after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -12%;
+    width: 24%;
+    height: 1px;
+    background-color: darkseagreen;
+}
+.sub-heading p{
+    color: darkseagreen;
+    display: inline-block;
+    padding: 0px 0px 20px;
+    position: relative;
+    line-height: 24px;
+    letter-spacing: 0.025em;
+    
+}
+.img3{
+     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(..//Images/bg2.jpg);
+  background-size: cover;
+  background-position: center;
+  color:#fff!important;
+  background-repeat: no-repeat;
+  width:100%;
+ height: 150vh;
+}
+
+.icon{
+  font-size: 40px;
+  margin: 5px auto;
+  padding: 5px;
+  height: 60px;
+  width: 60px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.tx:hover{
+  box-shadow: 5px 7px 9px -3px rgba(255, 255, 255, 0.5);
+  cursor:pointer;
+}
+
+/* testimonial */
+
+.testimonials{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)),url(..//Images/dog-1-fb.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    color: antiquewhite;
+    margin-top: -50px;
+}
+.testimonials .carousel-indicators{
+    bottom: -60px;
+}
+
+.testimonials .carousel-indicators li.active{
+    background-color: darkseagreen;
+}
+
+/* team */
+
+.team-area{
+    
+     position: relative;
+    padding: 100px 0px;
+    text-align: center;
+    margin-top: -50px;
+}
+.img4{
+    
+     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(..//Images/1585714838.jpg);
+  background-size: cover;
+  background-position: center;
+  color:#fff!important;
+  background-repeat: no-repeat;
+  width:100%;
+ height: 180vh;
+    
+}
+.team-area .sub-heading{
+    margin-bottom: 100px;
+}
+.team-man{
+    position: absolute;
+    left: 50%;
+    margin-left: -50%;
+    top: -50px;
+    overflow: hidden;
+    min-height: 100px;
+    height: 100px;
+    width: 100px;
+    min-width: 100px;
+    border: 10px solid darkdarkgrey;
+    border-radius: 50%;
+    
+    
+    
+}
+.team-man img{
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    border-radius: 50%;
+}
+.team-block h3{
+    color:navy;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 70px;
+    margin-bottom: 5px;
+}
+.team-block span{
+    color: darkcyan;
+    font-size: 16px;
+    text-transform: capitalize;
+    letter-spacing: 0.025em;
+}
+
+.team-block p{
+    color: black;
+    font-size: 14px;
+    padding: 25px 15px;
+    line-height: 24px;
+}
+
+.team-description{
+    background-color: white;
+}
+.team-social-network{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.team-social-network a{
+    margin: 0 6px;
+}
+.team-social-network i{
+    height: 40px;
+    width: 40px;
+    background: white;
+    text-align: center;
+    color: darkgrey;
+    border-radius: 50%;
+    border: 3px solid darkgrey;
+    padding-top: 10px;
+}
+.team-block{
+    text-align: center;
+    position: relative;
+}
+
+.team-block:hover .team-description{
+    background-color: darkseagreen;
+    color: white;
+    transition: .3s ease;
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -0-transition:.3s;
+    -ms-transition:.3s;
+}
+
+.team-block:hover .team-title h3,
+.team-block:hover .team-title span{
+    color: white;
+    transition: .4s ease;
+    -webkit-transition:.4s;
+    -moz-transition:.4s;
+    -0-transition:.4s;
+    -ms-transition:.4s;
+    
+}
+/* contact*/
+
+.img5{
+     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),url(..//Images/Pets-in-Dubai.jpg);
+  background-size: cover;
+  background-position: center;
+  color:#fff!important;
+  background-repeat: no-repeat;
+  width:100%;
+ height: 180vh;
+}
+
+.contact-area{
+    position: relative;
+    padding: 100px 0px;
+    text-align: center;
+    margin-top: -150px;
+}
+.devider{
+    border-right: 1px solid darkgray;
+}
+.contact-area h3{
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.contact-area h4{
+    color: wheat;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 4px;
+    letter-spacing: 0.25em;
+}
+.contact-area span{
+    display: block;
+    color: white;
+    font-size: 12px;
+    line-height: normal;
+    letter-spacing: 0.25em;
+}
+.contact-area ul li{
+    overflow: hidden;
+    margin-bottom: 25px;
+    
+}
+.contact-area ul li:last-child{
+    margin-bottom: 0;
+}
+.contact-address ul li .fa{
+    float: left;
+    width: 25px;
+    color:antiquewhite;
+    font-size: 36px;
+}
+.contact-address ul li .address-phone{
+    float: left;
+    width: 180px;
+    padding-left: 25px;
+}
+.contact-block{
+    padding-left: 25px;
+}
+.contact-area .form-control, .contact-area textarea{
+    font-family: 'Roboto', sans-serif;
+    background: #f8fdff;
+    border: 1px solid #bdbdbd;
+    padding: 10px 12px;
+    color: #bdbdbd;
+    height: 45px;
+    font-weight: 400;
+    border-radius: 0;
+}
+
+.contact-area .form-group{
+    margin-bottom: 30px;
+}
+.contact-area textarea{
+    min-height: 115px;
+}
+.contact-area .default-btn{
+    padding: 10px;
+}
+
+/* Footer */
+
+footer{
+   position: relative;
+    padding: 100px 0px;
+    text-align: center;
+    margin-top: -150px;
+    
+}
+.img6{
+     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),url(..//Images/footer-background-img.png);
+  background-size: cover;
+  background-position: center;
+  color:#fff!important;
+  background-repeat: no-repeat;
+  width:100%;
+ height: 50vh;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
